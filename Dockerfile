@@ -6,7 +6,7 @@ MAINTAINER thomasriley@rentalcars.com
 ADD config /elasticsearch/config
 
 # Add scripts for pre/post lifecycle hooks
-ADD hooks /elaticsearch/hooks
+ADD hooks /elasticsearch/hooks
 
 # Set environment
 ENV DISCOVERY_SERVICE elasticsearch-discovery
